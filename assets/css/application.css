@@ -11,22 +11,22 @@ body {
 }*/
 
 h2 {
-  font-size: 2.6em;
+  font-size: 2.4em;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 2.4em;
   font-weight: bold;
 }
 
 dt {
-  font-size: 1.6em;
+  font-size: 2.4em;
   font-weight: normal;
 }
 
 dd {
-  font-size: 1.6em;
+  font-size: 2.4em;
   font-weight: normal;
 }
 
@@ -36,7 +36,7 @@ dd {
 }
 
 li {
-  font-size: 1em;
+  font-size: 2em;
   font-weight: normal;
   float: left;
   display: inline;
@@ -62,7 +62,7 @@ li {
 }
 
 p {
-  font-size: 2.6em;
+  font-size: 3em;
 }
 
 @media (min-width: 992px) {
