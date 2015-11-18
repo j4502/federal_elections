@@ -1,45 +1,57 @@
 
 
-
-
-@media (min-width: 992px) {
-#main { margin-left: 10%; margin-right: 10%;}
-}
-
 body {
+  font-family: 'Helvetica Neue';
   font-size: 62.5%;
 }
 
-header {
-  font-family: 'Helvetica Neue';
+/*header {
   font-size: 2.4em;
   font-weight: bold;
-}
+}*/
 
 h2 {
-  font-family: 'Helvetica Neue';
   font-size: 2.6em;
   font-weight: bold;
 }
 
 h3 {
-  font-family: 'Helvetica Neue';
   font-size: 2em;
   font-weight: bold;
 }
 
 dt {
-  font-family: 'Helvetica Neue';
   font-size: 1.6em;
   font-weight: normal;
 }
 
 dd {
-  font-family: 'Helvetica Neue';
   font-size: 1.6em;
   font-weight: normal;
 }
 
+.nav1 {
+  overflow: auto;
+  text-decoration: none;
+}
+
+li {
+  font-size: 1em;
+  font-weight: normal;
+  float: left;
+  display: inline;
+  width: 50%;
+  text-decoration: none;
+}
+
+.nav2-icon a:active {
+  color: black;
+}
+
 p {
   font-size: 2.6em;
+}
+
+@media (min-width: 992px) {
+.container {margin-left: 10%; margin-right: 10%;}
 }
