@@ -48,6 +48,14 @@ li {
   color: black;
 }
 
+.nav2-icon {
+  text-align: center;
+}
+
+.nav2-text {
+  font-size: 0.9em;
+}
+
 p {
   font-size: 2.6em;
 }
