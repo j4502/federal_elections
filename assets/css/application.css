@@ -32,9 +32,15 @@ dd {
   font-weight: normal;
 }
 
+header {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
 .nav1 {
   overflow: auto;
   text-decoration: none;
+  margin-top: 1em;
 }
 
 li {
@@ -55,7 +61,7 @@ li {
 }
 
 .nav2-text {
-  font-size: 0.9em;
+  font-size: 2em;
 }
 
 .menu-img {
