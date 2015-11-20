@@ -12,9 +12,15 @@ body {
 .container {
   margin-left: 0; 
   margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
   width: 100%;
 }
 
+header { 
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .races-navigation {
   margin-top: 10em;
 }
@@ -96,12 +102,20 @@ li {
 }
 
 .nav2-text {
-  font-size: 2.3em;
+  font-size: 1.7em;
+  color: #AAB3B6;
 }
 
-.nav2-text:visited {
-  background-color:#252525;
-  color:#fff;
+.nav2-svg.active {
+  fill:#252525;
+}
+
+.nav2-text.active {
+  color: #252525;
+}
+
+.svg-icon {
+  width: 30px;
 }
 
 .menu-img {
@@ -125,8 +139,8 @@ footer {
 
 .fa {
   color: #d9d9d9;
-  margin-right: 1.7em;
   margin-top: 0.5em;
+  margin-right: 0.1em;
 }
 
 .contact-info,
@@ -135,17 +149,21 @@ footer {
 }
 
 
-dt, dd {
-  font-size: 2em;
+.contacts {
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
 }
 
 
 @media (min-width: 992px) {
 .container {padding-left: 10%; padding-right: 10%; }
 h1 {font-size: 3em;}
+.svg-icon {width:100%;}
+.nav2-text {font-size: 2.3em;}
 .campaign-type {display: inline-block;}
+.contacts {font-size: 2em;}
 .nav1 {font-size: 2em;}
-.fa {font-size: 2em;}
+.fa {font-size: 2em;  margin-right: 1.7em;}
 }
 
 
