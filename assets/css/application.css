@@ -1,0 +1,167 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family:  "Helvetica Neue",  Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  color:#252525;
+}
+
+.container {
+  margin-left: 0; 
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+header { 
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.races-navigation {
+  margin-top: 10em;
+}
+
+a {
+  color:#252525;
+}
+
+a:hover {
+  color:#969696;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 3px;
+  color:#fff;
+  background-color:#252525;
+  display:inline-block;
+  padding: 5px;
+
+  }
+
+h2 {
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2.4em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+ul {
+  padding-left: 0;
+}
+
+.nav1 {
+  overflow: auto;
+  text-decoration: none;
+  font-weight: 900;
+  color:#969696;
+  text-transform: uppercase;
+  font-size: 1.7em;
+}
+
+.campaign-type {
+  display:none;
+}
+
+li {
+  float: left;
+  display: inline;
+  width: 50%;
+  text-decoration: none;
+}
+
+.nav2-icon a:active {
+  color: black;
+}
+
+.nav2 {
+  margin-bottom: 3em;
+}
+
+.nav2-icon {
+  text-align: center;
+}
+
+.nav2-text {
+  font-size: 1.7em;
+  color: #AAB3B6;
+}
+
+.nav2-svg.active {
+  fill:#252525;
+}
+
+.nav2-text.active {
+  color: #252525;
+}
+
+.svg-icon {
+  width: 30px;
+}
+
+.menu-img {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+p {
+  font-size: 3em;
+}
+
+
+/* =========== FOOTER ========== */
+
+
+footer {
+  background: #252525;
+  color: #fff;
+  margin-top: 10em;
+}
+
+.fa {
+  color: #d9d9d9;
+  margin-top: 0.5em;
+  margin-right: 0.1em;
+}
+
+.contact-info,
+.social-icons {
+  margin-left: 2em;
+}
+
+
+.contacts {
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+}
+
+
+@media (min-width: 992px) {
+.container {padding-left: 10%; padding-right: 10%;}
+header {margin-top: 25px; margin-bottom:25px;}
+h1 {font-size: 3em;}
+.nav1 {margin-top: 1em; font-size: 2em;}
+.svg-icon {width:100%;}
+.nav2 {margin-bottom: 7em;}
+.nav2-text {font-size: 2.3em;}
+.campaign-type {display: inline-block;}
+.contacts {font-size: 2em;}
+.fa {font-size: 2em;  margin-right: 1.7em;}
+}
+
+
+
