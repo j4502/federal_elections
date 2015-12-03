@@ -10,19 +10,20 @@ body {
 }
 
 .container {
-  margin-left: 0; 
+  margin-left: 0;
   margin-right: 0;
   padding-right: 0;
   padding-left: 0;
   width: 100%;
 }
 
-header { 
+header {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 .races-navigation {
   margin-top: 10em;
 }
@@ -36,7 +37,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 h1 {
   font-size: 1.5em;
   font-weight: bold;
@@ -44,24 +44,38 @@ h1 {
   color:#fff;
   background-color:#252525;
   display:inline-block;
+  text-align: center;
   padding: 5px;
 
   }
 
 h2 {
-  font-size: 2.4em;
+  font-size: 3em;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 2.4em;
-  font-weight: bold;
+  font-size: 2.2em;
+  font-weight: lighter;
   margin-top: 10px;
 }
 
 
 ul {
   padding-left: 0;
+}
+
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 2px solid #252525;
+}
+
+.logo img {
+  width:100%;
+  height: auto;
+  margin: auto;
 }
 
 .nav1 {
@@ -73,14 +87,18 @@ ul {
   font-size: 1.7em;
 }
 
-.campaign-type {
+.page-subheader {
   display:none;
 }
 
+ul {
+  text-align: center;
+}
+
 li {
-  float: left;
+  text-align: center;
   display: inline;
-  width: 50%;
+  margin-right: 3em;
   text-decoration: none;
 }
 
@@ -105,6 +123,10 @@ li {
   fill:#252525;
 }
 
+.type {
+  text-align: center;
+}
+
 .nav2-text.active {
   color: #252525;
 }
@@ -116,6 +138,15 @@ li {
 .menu-img {
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+.cand-portrait {
+  display: block;
+  float: left;
+  width: auto;
+  max-width: 100%;
+  max-height: 90vh;
+  margin: 4em;
 }
 
 p {
@@ -143,6 +174,11 @@ footer {
   margin-left: 2em;
 }
 
+.footer-link {
+  color: white;
+  font-size: 1.7em;
+  margin-top: 0.5em;
+}
 
 .contacts {
   font-size: 1.7em;
@@ -155,13 +191,12 @@ footer {
 header {margin-top: 25px; margin-bottom:25px;}
 h1 {font-size: 3em;}
 .nav1 {margin-top: 1em; font-size: 2em;}
+.logo img {width:100%; height:auto;}
 .svg-icon {width:100%;}
 .nav2 {margin-bottom: 7em;}
 .nav2-text {font-size: 2.3em;}
 .campaign-type {display: inline-block;}
 .contacts {font-size: 2em;}
+.footer-link {font-size: 2em;}
 .fa {font-size: 2em;  margin-right: 1.7em;}
 }
-
-
-
