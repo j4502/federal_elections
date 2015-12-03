@@ -23,6 +23,7 @@ header {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 .races-navigation {
   margin-top: 10em;
 }
@@ -35,7 +36,6 @@ a:hover {
   color:#969696;
   text-decoration: none;
 }
-
 
 h1 {
   font-size: 1.5em;
