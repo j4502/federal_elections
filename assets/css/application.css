@@ -10,14 +10,14 @@ body {
 }
 
 .container {
-  margin-left: 0; 
+  margin-left: 0;
   margin-right: 0;
   padding-right: 0;
   padding-left: 0;
   width: 100%;
 }
 
-header { 
+header {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 15px;
@@ -142,6 +142,7 @@ li {
 
 p {
   font-size: 3em;
+  margin: 5em;
 }
 
 
@@ -185,6 +186,3 @@ h1 {font-size: 3em;}
 .contacts {font-size: 2em;}
 .fa {font-size: 2em;  margin-right: 1.7em;}
 }
-
-
-
