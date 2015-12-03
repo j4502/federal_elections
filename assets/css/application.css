@@ -44,6 +44,7 @@ h1 {
   color:#fff;
   background-color:#252525;
   display:inline-block;
+  text-align: center;
   padding: 5px;
 
   }
@@ -64,6 +65,19 @@ ul {
   padding-left: 0;
 }
 
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  border-top: 2px solid #252525;
+}
+
+.logo img {
+  width:100%;
+  height: auto;
+  margin: auto;
+}
+
 .nav1 {
   overflow: auto;
   text-decoration: none;
@@ -77,10 +91,14 @@ ul {
   display:none;
 }
 
+ul {
+  text-align: center;
+}
+
 li {
-  float: left;
+  text-align: center;
   display: inline;
-  width: 50%;
+  margin-right: 3em;
   text-decoration: none;
 }
 
@@ -103,6 +121,10 @@ li {
 
 .nav2-svg.active {
   fill:#252525;
+}
+
+.type {
+  text-align: center;
 }
 
 .nav2-text.active {
@@ -155,6 +177,7 @@ footer {
 header {margin-top: 25px; margin-bottom:25px;}
 h1 {font-size: 3em;}
 .nav1 {margin-top: 1em; font-size: 2em;}
+.logo img {width:100%; height:auto;}
 .svg-icon {width:100%;}
 .nav2 {margin-bottom: 7em;}
 .nav2-text {font-size: 2.3em;}
