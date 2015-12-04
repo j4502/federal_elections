@@ -150,6 +150,10 @@ li {
   margin: 2em;
 }
 
+.issue-title {
+text-align: center;
+}
+
 p {
   font-size: 3em;
 }
