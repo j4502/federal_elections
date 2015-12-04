@@ -140,7 +140,9 @@ li {
   margin-bottom: 2em;
 }
 
-.cand-portrait {
+
+/*styles candidate headshots in individual candidate profiles and individual issues page*/
+.headshot {
   display: block;
   float: left;
   width: auto;
