@@ -143,12 +143,11 @@ li {
 
 /*styles candidate headshots in individual candidate profiles and individual issues page*/
 .headshot {
-  display: block;
   float: left;
-  width: auto;
+  width: 30%;
   max-width: 100%;
   max-height: 90vh;
-  margin: 4em;
+  margin: 2em;
 }
 
 p {
