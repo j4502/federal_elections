@@ -1,0 +1,36 @@
+{
+ "name": "house",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "republicans",
+     "children": [{"recipient_name":"Ann L. Wagner (R)","recipient_party":"R","amount":958.25},
+{"recipient_name":"Billy Long (R)","recipient_party":"R","amount":382.14},
+{"recipient_name":"Blaine Luetkemeyer (R)","recipient_party":"R","amount":480.4},
+{"recipient_name":"Jacob Turk (R)","recipient_party":"R","amount":15.5},
+{"recipient_name":"Jason Smith (R)","recipient_party":"R","amount":495.233},
+{"recipient_name":"Jo Ann Emerson (R)","recipient_party":"R","amount":3.0},
+{"recipient_name":"Roy Blunt (R)","recipient_party":"R","amount":30.5},
+{"recipient_name":"Sam Graves (R)","recipient_party":"R","amount":307.2},
+{"recipient_name":"Vicky Hartzler (R)","recipient_party":"R","amount":430.318}]
+    }
+   ]
+  },
+  {
+   "name": "democrats",
+   "children": [{"recipient_name":"Arthur Henry Lieber (D)","recipient_party":"D","amount":30.0},
+{"recipient_name":"Barbara Hamill Stocker (D)","recipient_party":"D","amount":58.4},
+{"recipient_name":"Bill Hedge (D)","recipient_party":"D","amount":29.0},
+{"recipient_name":"Emanuel Cleaver (D)","recipient_party":"D","amount":225.1},
+{"recipient_name":"Jack Rushin (D)","recipient_party":"D","amount":3.0},
+{"recipient_name":"James S. Evans (D)","recipient_party":"D","amount":75.2},
+{"recipient_name":"Nate Irvin (D)","recipient_party":"D","amount":2.6},
+{"recipient_name":"Russ Carnahan (D)","recipient_party":"D","amount":5.0},
+{"recipient_name":"Steve Hodges (D)","recipient_party":"D","amount":38.8},
+{"recipient_name":"Todd Mahn (D)","recipient_party":"D","amount":5.0},
+{"recipient_name":"William L. Clay Jr (D)","recipient_party":"D","amount":137.0}]
+  }
+ ]
+}
