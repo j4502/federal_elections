@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-right: 0;
   padding-left: 0;
   width: 100%;
@@ -61,6 +61,14 @@ h3 {
   margin-top: 10px;
 }
 
+
+
+ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+
 hr {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -74,18 +82,17 @@ hr {
   margin: auto;
 }
 
-/*.nav1 {
-  overflow: auto;
-  text-decoration: none;
-  font-weight: 900;
-  color:#969696;
-  text-transform: uppercase;
-  font-size: 1.7em;
-}*/
-
 .page-subheader {
   display:none;
 }
+
+li {
+  text-align: center;
+  display: inline;
+  margin-right: 3em;
+  text-decoration: none;
+}
+
 
 .nav2-icon a:active {
   color: black;
@@ -123,6 +130,12 @@ hr {
 .menu-img {
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+.nav2,
+.viz {
+padding-left: 15px;
+padding-right: 15px; 
 }
 
 /*dropdown menu — Gorbachev grad project*/
@@ -196,9 +209,13 @@ text-align: center;
 }
 
 p {
-  font-size: 3em;
+  font-size: 2em;
 }
 
+.legend {
+  font-size: 1.7em;
+  padding-bottom: 0.5em;
+}
 
 /* =========== FOOTER ========== */
 

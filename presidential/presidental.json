@@ -1,0 +1,41 @@
+{
+ "name": "presidental",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "republicans",
+     "children": [{"contributor_name":"American Assn of Orthodontists","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"BEDELL, BRAD MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"CARR, JENNIFER","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"CHENOWETH, MARY","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"EICHENBERGER, CARL MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.5},
+{"contributor_name":"FARBER, RUDOLPH MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"FLEISCHUT, PAUL IJ MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"GLARNER, MARY MRS","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"GLARNER, ROBERT MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"HANMAN, GARY E MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"HERMANN-HOLTON, CARLOTA MS","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"HOWSER, DON","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":5.0},
+{"contributor_name":"KACALIEFF, HARRIETTE MRS","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":5.0},
+{"contributor_name":"KOMEN, WILLIAM J","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":5.0},
+{"contributor_name":"LIONBERGER, ERLE L MRS","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"MERTZLUFFT, DOUG MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"OERTLI, RICK MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"POHRER, JACK E MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"SCHABERG, JAMES DR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"SELLINGER, JOSEPH P MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"SEVILLE, THOMAS","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.8},
+{"contributor_name":"STEELMAN, MAXINE MRS","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.4},
+{"contributor_name":"STUPP, JOHN P MR JR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"STUPP, JULIE B MRS","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"VIRGIL, ROBERT L MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"WALLIS, LYNN","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
+{"contributor_name":"WESTLOCK, MARK","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
+{"contributor_name":"WIESE, HAROLD E MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5}]
+    }
+   ]
+  }
+ ]
+}
