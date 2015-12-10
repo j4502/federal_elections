@@ -165,13 +165,14 @@
 
 <!-- Graduate component Iaryna Mykhyalyshyn -->
 
-<script type="text/javascript">
+<script>
 var chwidth = $(".viz-width").width() - 15;
 var vizHeight = $( window ).height() *0.5;
 
 var margin = {top: 0, right: 0, bottom: 10, left: 0},
     width = chwidth - margin.left - margin.right,
     height = vizHeight - margin.top - margin.bottom;
+
 
 var tip = d3.select("body").append("div") 
     .attr("class", "tooltip")       
@@ -201,7 +202,7 @@ d3.json("senate.json", function(error, root) {
              tip.transition()    
                 .duration(200)    
                 .style("opacity", .9);    
-             tip.html(d.recipient_name +"<br/>"+ "<strong>" + d3.round(d.amount) + "</strong>") 
+             tip.html(d.recipient_name) 
                 .style("left", (d3.event.pageX) + "px")   
                 .style("top", (d3.event.pageY) + "px");  
             })
@@ -212,10 +213,15 @@ d3.json("senate.json", function(error, root) {
         })
       .style("left", function(d) { return d.x + "px"; })
       .style("top", function(d) { return d.y + "px"; })
+      .style("width", 0 )
+      .style("height", 0)
+      .transition()
+      .duration(700)
+      .delay(function(d, i) { return i * 200; })
       .style("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
       .style("height", function(d) { return Math.max(0, d.dy - 1) + "px"; })
       .style("background", function(d) {
-            if (d.recipient_party === "R") {return "#c81b30"}
+            if (d.recipient_party === "R") {return "#d73027"}
             else  { return "#2f4879" }
         ;})
       .text(function(d) { 

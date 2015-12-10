@@ -2,9 +2,6 @@
  "name": "presidental",
  "children": [
   {
-   "name": "analytics",
-   "children": [
-    {
      "name": "republicans",
      "children": [{"contributor_name":"American Assn of Orthodontists","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":1.0},
 {"contributor_name":"BEDELL, BRAD MR","recipient_name":"Mitt Romney (R)","recipient_party":"R","amount":2.5},
@@ -37,5 +34,3 @@
     }
    ]
   }
- ]
-}
