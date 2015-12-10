@@ -123,7 +123,7 @@
   </div>
   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 viz-width">
     <div class="legend">thou</div>
-    <div class="presidental-viz"></div>
+    <div class="presidential-viz"></div>
     <div class="legend">Data:Sunlight Foundation</div>
   </div>
 </div>
@@ -183,14 +183,14 @@ var treemap = d3.layout.treemap()
     .sticky(true)
     .value(function(d) { return d.amount; });
 
-var div = d3.select(".presidental-viz").append("div")
+var div = d3.select("presidential-viz").append("div")
     .style("position", "relative")
     .style("width", (width + margin.left + margin.right) + "px")
     .style("height", (height + margin.top + margin.bottom) + "px")
     .style("left", margin.left + "px")
     .style("top", margin.top + "px");
 
-d3.json("presidental.json", function(error, root) {
+d3.json("presidential.json", function(error, root) {
   if (error) throw error;
 
   var node = div.datum(root).selectAll(".node")
