@@ -61,14 +61,6 @@ h3 {
   margin-top: 10px;
 }
 
-
-
-ul {
-  padding-left: 0;
-  text-align: center;
-}
-
-
 hr {
   border-top: 2px solid #252525;
 }
@@ -81,13 +73,6 @@ hr {
 
 .page-subheader {
   display:none;
-}
-
-li {
-  text-align: center;
-  display: inline;
-  margin-right: 3em;
-  text-decoration: none;
 }
 
  .nav1 {
@@ -135,7 +120,7 @@ li {
 .nav2,
 .viz {
 padding-left: 15px;
-padding-right: 15px; 
+padding-right: 15px;
 }
 
 /*dropdown menu — Gorbachev grad project*/
