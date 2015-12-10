@@ -23,7 +23,7 @@ header {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .races-navigation {
@@ -48,7 +48,6 @@ h1 {
   display:inline-block;
   text-align: center;
   padding: 5px;
-
   }
 
 h2 {
@@ -62,12 +61,6 @@ h3 {
   margin-top: 10px;
 }
 
-
-ul {
-  padding-left: 0;
-}
-
-
 hr {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -77,31 +70,21 @@ hr {
 .logo img {
   width:100%;
   height: auto;
+  padding-top: 2em;
   margin: auto;
 }
 
-.nav1 {
+/*.nav1 {
   overflow: auto;
   text-decoration: none;
   font-weight: 900;
   color:#969696;
   text-transform: uppercase;
   font-size: 1.7em;
-}
+}*/
 
 .page-subheader {
   display:none;
-}
-
-ul {
-  text-align: center;
-}
-
-li {
-  text-align: center;
-  display: inline;
-  margin-right: 3em;
-  text-decoration: none;
 }
 
 .nav2-icon a:active {
@@ -140,6 +123,62 @@ li {
 .menu-img {
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+/*dropdown menu — Gorbachev grad project*/
+
+nav {
+  overflow: auto;
+  text-decoration: none;
+  font-weight: 900;
+  color:#969696;
+  text-transform: uppercase;
+  display: inline;
+  font-size: 1.7em;
+}
+
+nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+
+nav ul li {
+	display:inline-block;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;
+	color: black;
+	line-height: 40px;
+	text-decoration:none;
+}
+
+nav a:hover {
+  color:#969696;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 0px;
+}
+
+nav ul li:hover > ul {
+	display:inherit;
+  background-color: #f3efe7;
+}
+
+nav ul ul li {
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+.menu-dropdown {
+  height: 60px;
 }
 
 
@@ -189,7 +228,6 @@ a.footer-link {
   font-size: 1.7em;
   margin-bottom: 0.5em;
 }
-
 
 @media (min-width: 992px) {
 .container {padding-left: 10%; padding-right: 10%;}
