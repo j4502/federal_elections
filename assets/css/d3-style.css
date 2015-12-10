@@ -1,5 +1,3 @@
-
-
 div.tooltip { 
     position: absolute;     
     text-align: center;     
@@ -9,7 +7,6 @@ div.tooltip {
     background:#eeeeee; 
     border: 0px;    
     border-radius: 0px;     
-    pointer-events: none; 
     z-index: 1000;    
 }
 
