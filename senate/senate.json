@@ -6,16 +6,16 @@
    "children": [
     {
      "name": "republicans",
-     "children": [{"recipient_name":"Claire McCaskill","recipient_party":"D","amount":501.687}]
+     "children": [{"recipient_name":"Claire McCaskill (R)","recipient_party":"D","amount":501.687}]
     }
    ]
   },
   {
    "name": "democrats",
-   "children": [{"recipient_name":"John Brunner","recipient_party":"R","amount":29.721},
-{"recipient_name":"Roy Blunt","recipient_party":"R","amount":2262.12},
-{"recipient_name":"Sarah H. Steelman","recipient_party":"R","amount":9.0},
-{"recipient_name":"Todd Akin","recipient_party":"R","amount":133.195}]
+   "children": [{"recipient_name":"John Brunner (D)","recipient_party":"R","amount":29.721},
+{"recipient_name":"Roy Blunt (D)","recipient_party":"R","amount":2262.12},
+{"recipient_name":"Sarah H. Steelman (D)","recipient_party":"R","amount":9.0},
+{"recipient_name":"Todd Akin (D)","recipient_party":"R","amount":133.195}]
   }
  ]
 }

@@ -200,7 +200,7 @@ d3.json("presidential.json", function(error, root) {
              tip.transition()    
                 .duration(200)    
                 .style("opacity", .9);    
-             tip.html(d.recipient_name) 
+             tip.html("<strong>" + "recipient:" + "</strong>"  + "<br>" + d.recipient_name + "<br>" + "<strong>" + "contributor:" + "</strong>" + "<br>" + d.contributor_name + "<br>" + "<strong>" + d.amount + "</strong>") 
                 .style("left", (d3.event.pageX) + "px")   
                 .style("top", (d3.event.pageY) + "px");  
             })
@@ -214,7 +214,7 @@ d3.json("presidential.json", function(error, root) {
       .style("width", 0 )
       .style("height", 0)
       .transition()
-      .duration(700)
+      .duration(500)
       .delay(function(d, i) { return i * 200; })
       .style("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
       .style("height", function(d) { return Math.max(0, d.dy - 1) + "px"; })
