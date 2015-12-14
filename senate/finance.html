@@ -20,10 +20,18 @@
   <header>
      <div class="row">
        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-7">
-         <ul class="nav1">
-           <li><a href="../index.html">Menu</a></li>
-           <li><a href="../about.html">About</a></li>
+         <nav>
+         <ul>
+            <li><a href="../about.html">About</a></li>
+             <li><a href="#">Menu</a>
+             <ul>
+                 <li><a href="../presidential/candidates.html">President</a></li>
+                 <li><a href="../senate/candidates.html">Senate</a></li>
+                 <li><a href="../house/candidates.html">House</a></li>
+             </ul>
+             </li>
          </ul>
+     </nav>
        </div>
        <div class="col-lg-4 col-md-4  col-sm-4  col-xs-0 type">
          <h1 class="page-subheader">Senatorial Campaign 2016</h1>
@@ -175,9 +183,9 @@ var margin = {top: 0, right: 0, bottom: 10, left: 0},
     height = vizHeight - margin.top - margin.bottom;
 
 
-var tip = d3.select("body").append("div") 
-    .attr("class", "tooltip")       
-    .style("opacity", 0); 
+var tip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
 
 
 var treemap = d3.layout.treemap()
@@ -199,6 +207,15 @@ d3.json("senate.json", function(error, root) {
       .data(treemap.nodes)
       .enter().append("div")
       .attr("class", "node")
+<<<<<<< HEAD
+      .on("mouseover", function(d) {
+             tip.transition()
+                .duration(200)
+                .style("opacity", .9);
+             tip.html(d.recipient_name)
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY) + "px");
+=======
       .on("mouseover", function(d) {     
              tip.transition()    
                 .duration(200)    
@@ -206,11 +223,12 @@ d3.json("senate.json", function(error, root) {
              tip.html(d.recipient_name + "<br>" + "<strong>" + d.amount + "</strong>") 
                 .style("left", (d3.event.pageX) + "px")   
                 .style("top", (d3.event.pageY) + "px");  
+>>>>>>> origin/develop
             })
-            .on("mouseout", function(d) {   
-            tip.transition()    
-                .duration(300)    
-                .style("opacity", 0); 
+            .on("mouseout", function(d) {
+            tip.transition()
+                .duration(300)
+                .style("opacity", 0);
         })
       .style("left", function(d) { return d.x + "px"; })
       .style("top", function(d) { return d.y + "px"; })
@@ -225,10 +243,10 @@ d3.json("senate.json", function(error, root) {
             if (d.recipient_party === "R") {return "#d73027"}
             else  { return "#2f4879" }
         ;})
-      .text(function(d) { 
+      .text(function(d) {
       if (d.amount >= 40) {return d3.round(d.amount)}
       else { return ""}
-      ; }); //rounded result 
+      ; }); //rounded result
       });
 
 </script>
