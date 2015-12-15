@@ -166,6 +166,7 @@ nav a {
 
 nav a:hover {
   color:#969696;
+  text-decoration: none;
 }
 
 nav ul ul {
@@ -177,6 +178,7 @@ nav ul ul {
 nav ul li:hover > ul {
 	display:inherit;
   background-color: #f3efe7;
+  text-decoration: none;
 }
 
 nav ul ul li {
