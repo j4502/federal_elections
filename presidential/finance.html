@@ -19,7 +19,7 @@
 
   <header>
      <div class="row">
-       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-7">
+       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-7 menu-dropdown">
          <nav>
          <ul>
             <li><a href="../about.html">About</a></li>
@@ -214,13 +214,13 @@ d3.json("presidential.json", function(error, root) {
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY) + "px");
 =======
-      .on("mouseover", function(d) {     
-             tip.transition()    
-                .duration(200)    
-                .style("opacity", .9);    
-             tip.html("<strong>" + "recipient:" + "</strong>"  + "<br>" + d.recipient_name + "<br>" + "<strong>" + "contributor:" + "</strong>" + "<br>" + d.contributor_name + "<br>" + "<strong>" + d.amount + "</strong>") 
-                .style("left", (d3.event.pageX) + "px")   
-                .style("top", (d3.event.pageY) + "px");  
+      .on("mouseover", function(d) {
+             tip.transition()
+                .duration(200)
+                .style("opacity", .9);
+             tip.html("<strong>" + "recipient:" + "</strong>"  + "<br>" + d.recipient_name + "<br>" + "<strong>" + "contributor:" + "</strong>" + "<br>" + d.contributor_name + "<br>" + "<strong>" + d.amount + "</strong>")
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY) + "px");
 >>>>>>> origin/develop
             })
             .on("mouseout", function(d) {
