@@ -205,7 +205,6 @@ d3.json("presidential.json", function(error, root) {
       .data(treemap.nodes)
       .enter().append("div")
       .attr("class", "node")
-<<<<<<< HEAD
       .on("mouseover", function(d) {
              tip.transition()
                 .duration(200)
@@ -213,15 +212,6 @@ d3.json("presidential.json", function(error, root) {
              tip.html(d.recipient_name)
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY) + "px");
-=======
-      .on("mouseover", function(d) {     
-             tip.transition()    
-                .duration(200)    
-                .style("opacity", .9);    
-             tip.html("<strong>" + "recipient:" + "</strong>"  + "<br>" + d.recipient_name + "<br>" + "<strong>" + "contributor:" + "</strong>" + "<br>" + d.contributor_name + "<br>" + "<strong>" + d.amount + "</strong>") 
-                .style("left", (d3.event.pageX) + "px")   
-                .style("top", (d3.event.pageY) + "px");  
->>>>>>> origin/develop
             })
             .on("mouseout", function(d) {
             tip.transition()
